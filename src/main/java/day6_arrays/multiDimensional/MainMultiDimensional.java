@@ -10,6 +10,8 @@ public class MainMultiDimensional {
                 {"Nan",60000.75,45,3,false},
                 {"Nami",70000.75,30,4,true},
                 {"Robin",80000.75,50,11,false}
+
+
         };
 
         System.out.println(" -- Initial Employee Data");
