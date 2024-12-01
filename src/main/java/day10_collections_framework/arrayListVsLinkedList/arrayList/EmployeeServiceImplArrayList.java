@@ -14,6 +14,14 @@ public class EmployeeServiceImplArrayList {
         employees.add(employee);
     }
 
+    public void addEmployeeToFront(EmployeeArrayList employee){
+        employees.addFirst(employee);
+    }
+
+    public void addEmployeeToLast(EmployeeArrayList employee){
+        employees.addLast(employee);
+    }
+
     public void addEmployeeAtIndex(int index,EmployeeArrayList employee){
         employees.add(index,employee);
     }
@@ -31,6 +39,14 @@ public class EmployeeServiceImplArrayList {
     //DELETE
     public void removeEmployee(int index){
         employees.remove(index);
+    }
+
+    public void removeEmployeeInFront(){
+        employees.removeFirst();
+    }
+
+    public void removeEmployeeInLast(){
+        employees.removeLast();
     }
 
     //COUNT EMPLOYEES

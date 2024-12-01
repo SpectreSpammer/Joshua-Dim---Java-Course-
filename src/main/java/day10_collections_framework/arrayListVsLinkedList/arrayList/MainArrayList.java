@@ -10,6 +10,8 @@ public class MainArrayList {
         ems.addEmployee(new EmployeeArrayList(102,"Nan","PR"));
         ems.addEmployee(new EmployeeArrayList(103,"Nami","HR"));
         ems.addEmployee(new EmployeeArrayList(104,"Robin","Sales"));
+        ems.addEmployeeToFront(new EmployeeArrayList(105,"Sanji","Kitchen"));
+        ems.addEmployeeToLast(new EmployeeArrayList(105,"Zorro","Security"));
 
         System.out.println("After Adding Employees");
         ems.printEmployees();
@@ -18,6 +20,12 @@ public class MainArrayList {
         ems.printEmployees();
         System.out.println();
         ems.removeEmployee(2);
+        ems.printEmployees();
+        System.out.println("Removing employees in Front");
+        ems.removeEmployeeInFront();
+        ems.printEmployees();
+        System.out.println("Removing employees in Last");
+        ems.removeEmployeeInLast();
         ems.printEmployees();
 
         System.out.println("Total Employees: " + ems.getEmployeeCount());

@@ -30,15 +30,15 @@ Requirements
 
  6. Implement the calculateSalary() method differently for each subclass:
     -Manager: Base salary + 20% bonus
-    -Developer: Base salary + $500 tech bonus
+    -Developer: Base salary + tech bonus
     -Intern: 50% of base salary
 
  7. Implement the calculateSalary() method differently for each subclass:
     -Manager: Base salary + 20% bonus
-    -Developer: Base salary + $500 tech bonus
+    -Developer: Base salary + tech bonus
     -Intern: 50% of base salary
 
-  8. Demonstrate encapsulation by making all properties private and providing getter and setter methods.
+  8. Demonstrate encapsulation by making all properties protected and providing getter and setter methods.
 
   9. Create an interface called Trainable with a method attendTraining().
 
